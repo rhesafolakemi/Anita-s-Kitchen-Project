@@ -1,0 +1,237 @@
+body {
+  font-family: 'Arvo', sans-serif;
+}
+
+#headerdiv {
+  background-image: url("../images/backgrounds/landing.jpg");
+  height: 636px;
+  color: white;
+  background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F15A29;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#logotop {
+  padding-top: 5%;
+}
+
+.part2{
+  height: auto;
+  width: auto;
+}
+
+.part2 .col-md-3{
+  padding: 0;
+}
+
+.part2 .col-md-3 :hover {
+
+}
+
+#happydiv {
+  background-color: #E4E5E7;
+  padding: 6% 0 6% 0;
+}
+
+#partydiv {
+  background-color: #F15B29;
+  padding: 6% 0 6% 0;
+  color: white;
+  cursor: pointer;
+}
+
+#breakfasttab {
+  background-image: url("../images/foodtop/breakfast.jpg");
+  color: white;
+  background-size: cover;
+  padding: 5% 0 5% 0;
+  cursor: pointer;
+}
+
+#lunchtab {
+  background-image: url("../images/foodtop/lunch.jpg");
+  background-size: auto;
+  color: white;
+  padding: 5% 0 5% 0;
+  cursor: pointer;
+}
+
+#dinnertab {
+  background-image: url("../images/foodtop/dinner.jpg");
+  color: white;
+  background-size: cover;
+  padding: 5% 0 5% 0;
+  cursor: pointer;
+}
+
+.fastfood {
+  font-size: 150%;
+  margin: 10% 0% 10% 0%;
+}
+
+.fastfoodimg {
+  float: left;
+  width: 20%;
+}
+
+#drink1 {
+  float: left;
+}
+
+#drinkstext {
+  text-align: right;
+  margin-right: 50px;
+}
+
+#fastfoodtext {
+  margin-left: 50px;
+}
+
+div.fastfoodimg {
+  padding: 5%;
+  /*margin: 5%;*/
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#part4 {
+  margin-top: 10%;
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  height: auto;
+}
+
+.optionbackground {
+  background-color: white;
+  margin: 10% 0% 10% 0%;
+  text-align: center;
+}
+
+#part4 .col-md-4 {
+  margin: 0;
+}
+
+.optionbackground .col-md-3 {
+  background-color: #E3E3E3;
+  color: #AEAEAE;
+  padding: 0;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.optionbackground .active {
+  background-color: white;
+  color: #F15B29;
+  border-bottom: none;
+}
+
+.optionbackground .col-md-3 :hover:not(.active) {
+  background-color: white;
+  cursor: pointer;
+}
+
+.optionbackground h3 {
+  font-weight: bold;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+.optionbackground p {
+  font-size: 120%;
+  color: #F15B29;
+  padding-top: 5px;
+}
+
+.optionbackground .col-md-4 {
+  padding: 4% 0% 2% 0%;
+  padding-left: -10;
+}
+
+div.part5a {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  border-style: 1px solid #bbb;
+  padding: 2%;
+}
+
+.col-md-5 {
+  border-left: 1px solid #bbb;
+}
+
+.part6 {
+  background-image: url("../images/backgrounds/subscribe.jpg");
+  height: 301px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.part6a {
+  padding: 5% 0 5% 0;
+}
+
+.part7 {
+  background-color: #F15B29;
+  height: 350px;
+  text-align: center;
+  color: white;
+}
+
+.part7 .container {
+  width: 50%;
+  padding: 2% 0 0 0;
+}
+
+.part7 .container h2 {
+  margin-bottom: 2%;
+  font-size: 200%;
+}
+
+.part7 .container h4 {
+  margin-bottom: 3%;
+  font-size: 150%;
+}
+
+.part7 .container .part7img {
+  margin: 0% 2% 10% 2%;
+}
